@@ -192,21 +192,6 @@ nav a {
 }
 
 
-nav a::after {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    background: #00c6ff;
-    left: 0;
-    bottom: -5px;
-    transition: 0.3s;
-}
-
-nav a:hover::after {
-    width: 100%;
-}
-
 nav a:hover {
     color: #00c6ff;
 }
@@ -219,7 +204,6 @@ nav a:hover {
     padding: 30px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(15px);
     box-shadow: 0 8px 25px rgba(0,0,0,0.4);
     animation: fadeIn 1s ease-in;
 }
