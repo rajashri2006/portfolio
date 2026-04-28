@@ -166,7 +166,6 @@ body {
 
 header {
     background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(10px);
     padding: 20px;
     text-align: center;
     position: sticky;
@@ -254,16 +253,6 @@ p {
 }
 
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 ```
 ## OUTPUT
 
